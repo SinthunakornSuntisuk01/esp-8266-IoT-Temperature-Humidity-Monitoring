@@ -15,10 +15,10 @@
 // declare an SSD1306 display object connected to I2C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
  
-String apiKey = "HZ3VBZWJ0L4QVR68";     //  Enter your Write API key from ThingSpeak
+String apiKey = "XXXXXXXXXXXXXXX";     //  Enter your Write API key from ThingSpeak
  
-const char *ssid =  "Wi_Fi_sc_Mobile_2.4G";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "!@pT32Jy=45SC&";
+const char *ssid =  "XXXXXXXXXXXXXXXXX";     // replace with your wifi ssid and wpa2 key
+const char *pass =  "XXXXXXXXXXXXXXXXX";
 const char* server = "api.thingspeak.com";
  
 #define DHTPIN 13          //pin where the dht11 is connected
